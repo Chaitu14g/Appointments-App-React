@@ -19,6 +19,12 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  overflow: auto;
+}
+
+.appointmentItemContainerText::-webkit-scrollbar {
+  display: none;
+  overflow: hidden;
 }
 
 .appointmentItemContainerTextHeading {
